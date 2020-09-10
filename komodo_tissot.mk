@@ -23,9 +23,14 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Inherit some common KOMODO stuff.
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk) 
-KOMODO_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Gapps
+CURRENT_BUILD_TYPE := nogapps
+
+# OFFICIAL TAG
+KOMODO_OFFICIAL=true
+KOMODO_VARIANT = RELEASE
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
