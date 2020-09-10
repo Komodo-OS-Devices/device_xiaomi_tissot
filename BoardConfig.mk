@@ -46,6 +46,8 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Selinux
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Twrp
 -include $(DEVICE_PATH)/twrp/twrp.mk
@@ -55,3 +57,4 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
+
