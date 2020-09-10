@@ -13,9 +13,9 @@
   },
   {
    "remote":"github",
-    "repository":"yincen17/android_device_xiaomi_msm8953-common",
+    "repository":"Komodo-OS-Devices/device_xiaomi_msm8953-common",
     "target_path":"device/xiaomi/msm8953-common",
-    "branch":"10"
+    "branch":"ten"
   },
   { 
     "remote":"github", 
