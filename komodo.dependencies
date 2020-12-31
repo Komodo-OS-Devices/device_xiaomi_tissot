@@ -7,15 +7,15 @@
   },
   {
    "remote":"github",
-    "repository":"yincen17/kernel_xiaomi_msm8953",
-    "target_path":"kernel/xiaomi/msm8953",
-    "branch":"derp10"
+    "repository":"silont-project/kernel_xiaomi_tissot",
+    "target_path":"kernel/xiaomi/silont",
+    "branch":"rom"
   },
   {
    "remote":"github",
-    "repository":"Komodo-OS-Devices/device_xiaomi_msm8953-common",
+    "repository":"yincen17/android_device_xiaomi_msm8953-common",
     "target_path":"device/xiaomi/msm8953-common",
-    "branch":"ten"
+    "branch":"10"
   },
   { 
     "remote":"github", 
