@@ -23,3 +23,7 @@ persist.delta_time.enable=true
 # BPF
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.kernel.ebpf.supported=true
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+org.komodo.maintainer=Yincen

@@ -22,18 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 
-# Inherit some common Nusantara stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk) 
-$(call inherit-product-if-exists, packages/apps/NusantaraParts/nadproject.mk)
-NAD_BUILD_TYPE := OFFICIAL
+# Inherit some common komodo stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk) 
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_PIXEL_CHARGING := true
+
+# Gapps
+CURRENT_BUILD_TYPE := nogapps
+
+# OFFICIAL TAG
+KOMODO_OFFICIAL=true
+KOMODO_VARIANT = RELEASE
 
 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := nad_tissot
+PRODUCT_NAME := komodo_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1
