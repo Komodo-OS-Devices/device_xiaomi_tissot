@@ -27,7 +27,7 @@ $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
-CURRENT_BUILD_TYPE := nogapps
+KOMODO_BUILD_GAPPS_TYPE := GAPPS
 
 # OFFICIAL TAG
 KOMODO_OFFICIAL=true
